@@ -7,7 +7,7 @@ class CourseMember(BaseModel):
 
 
 class Course(BaseModel):
-    id: int
+    id: str
     name: str
     complete: str | None = Field(default=None)
     image_url: str | None = Field(default=None)
