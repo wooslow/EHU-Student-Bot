@@ -8,3 +8,8 @@ class URLs(StrEnum):
     COURSE_PAGE = "course/view.php?id="
     ATTENDANCE_COURSE_PAGE = "https://moodle.ehu.lt/mod/attendance/view.php?id="
 
+
+class Language(StrEnum):
+    RU = "ru"
+    EN = "en-US"
+    NULL = "None"
